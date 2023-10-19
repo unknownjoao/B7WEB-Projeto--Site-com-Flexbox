@@ -233,3 +233,14 @@ article .news_resume {
     line-height: 20px;
 }
 
+aside .widget_body{
+    
+}
+
+aside .box_news {
+    background-color: #2b4c99;
+    width: 125px;
+    height: 125px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
