@@ -5,7 +5,6 @@
 body {
     margin: 0;
     padding: 0;
-    padding-bottom: 300px;
 }
 
 header {
@@ -146,36 +145,39 @@ nav a:hover {
     font-weight: bold;
 }
 
-#geral{
+#geral {
     display: flex;
     justify-content: center;
 }
 
-#geral section{
+#geral section {
     flex: 2;
 }
 
-#geral aside{
+#geral aside {
     flex: 1;
 }
 
-.widget_title{
+.widget_title {
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-.widget_title_text{
+.widget_title_text {
     color: #000;
     font-size: 21px;
     font-weight: bold;
 }
 
-.widget_title_bar{
+.widget_title_bar {
     width: 50px;
     height: 2px;
     background-color: #36a9e1;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
+
+
 
 .flex {
     display: flex;
@@ -188,10 +190,11 @@ article {
     margin-right: 20px;
 }
 
-article a{
+article a {
     text-decoration: none;
 }
-article .news_data{
+
+article .news_data {
     display: flex;
 }
 
@@ -217,7 +220,7 @@ article .news_thumbnail {
 article .news_thumbnail img {
     width: 100%;
     height: auto;
-    
+
 }
 
 article .news_title {
@@ -233,14 +236,74 @@ article .news_resume {
     line-height: 20px;
 }
 
-aside .widget_body{
-    
-}
-
 aside .box_news {
     background-color: #2b4c99;
     width: 125px;
     height: 125px;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+    flex: 1;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+    flex: 1;
+    color: #FFF;
+
+}
+
+.fm_1 {
+    background-color: #39aae1;
+}
+
+.fm_2 {
+    background-color: #0079c7;
+}
+
+.fm_3 {
+    background-color: #2b4c99;
+}
+
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #FFF;
+}
+
+.footer_area {
+    display: flex;
+}
+
+.footer_areaitem {
+    flex: 1;
+    color: #FFF;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+footer .widget_title_text {
+    color: #FFF;
+}
+
+.footer_copy {
+    border-top: 2px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
 }
